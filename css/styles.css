@@ -29,12 +29,6 @@ b {
     justify-content: center;
     align-items: center;
   }
-  .border{ 
-    height: 420px;
-    width: 240px;
-    border: 18px solid black; 
-  }
-
   .dooropen{
     height: 420px;
     width: 240px;
@@ -45,4 +39,14 @@ b {
   }
   .dooropen:hover{
     transform: perspective(1200px) rotateY(40deg);
+  }
+  .border{ 
+    height: 420px;
+    width: 240px;
+    border: 18px solid black;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center; 
   }
